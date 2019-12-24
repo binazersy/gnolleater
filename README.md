@@ -1,2 +1,1 @@
-# My playground for linux
-# (actually for the backup)
+# My playground for linux(for backup)
