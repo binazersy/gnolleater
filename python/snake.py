@@ -17,8 +17,9 @@ w.keypad(1)
 w.timeout(100)
 
 # snake position
-snake_x = sw/4
-snake_y = sh/2
+snake_x = int(sw/4)
+snake_y = int(sh/2)
+
 
 # snake initial length = 3
 snake = [
@@ -28,7 +29,8 @@ snake = [
 ]
 
 # food
-food = [sh/2, sw/2]
+food = [int(sh/2), int(sw/2)]
+#food = [random.randint(1, sh-1), random.randint(1, sw-1)]
 w.addch(food[0], food[1], curses.ACS_PI)
 
 key = curses.KEY_RIGHT
